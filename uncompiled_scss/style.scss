@@ -1,0 +1,27 @@
+@import "grid/main";
+
+@import "styles/support/fonts";
+@import "styles/support/grid";
+@import "styles/support/common";
+@import "styles/support/buttons";
+
+@import "styles/components/login";
+@import "styles/components/player";
+@import "styles/components/playlist";
+@import "styles/components/settings";
+
+html {
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: "Muller";
+
+  background: url("../images/bg.jpg") center no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 15px;
+}
