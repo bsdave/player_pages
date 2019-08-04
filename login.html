@@ -19,17 +19,55 @@
         <div class="login-box-body">
           <div class="login-head">
             <img src="assets/images/logo.svg" class="logo-img">
-            <h1 class="title">Введите код безопасности для запуска плеера</h1>
+            <h1 class="title">Введите код безопасности <br> для запуска плеера</h1>
           </div>
 
           <div class="login-body">
+            <div class="login-form">
+              <form action="/">
+                <div class="code-inputs">
+                  <div class="left-side-inputs">
+                    <input class="input" type="text" name="number1" id="number1">
+                    <input class="input" type="text" name="number2" id="number2">
+                    <input class="input" type="text" name="number3" id="number3">
+                  </div>
+                  <img class="inputs-divider" src="assets/images/inputs-divider.svg">
 
+                  <div class="right-side-inputs">
+                    <input class="input" type="text" name="number4" id="number4">
+                    <input class="input" type="text" name="number5" id="number5">
+                    <input class="input" type="text" name="number6" id="number6">
+                  </div>
+                </div>
+
+                <p class="description">Код безопасности вы можете найти в вашем <br> личном кабинете объекта по
+                  адресу<br>
+                  <a href="#" class="text-link">soundservice.me</a></p>
+
+                <button class="button" type="submit">Запустить плеер</button>
+              </form>
+            </div>
           </div>
 
         </div>
       </div>
     </div>
 
+  </div>
+
+  <!-- еще есть success -->
+  <div class="modal-box error">
+    <div class="modal">
+      <div class="modal-head">
+        <h3 class="title">Ошибка</h3>
+      </div>
+
+      <div class="modal-body">
+        <p class="text">Вероятнее всего, вы перепутали букву или цифру</p>
+      </div>
+
+      <span class="modal-close"></span>
+    </div>
   </div>
 
 </body>

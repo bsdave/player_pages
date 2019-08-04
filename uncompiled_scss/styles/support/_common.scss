@@ -6,19 +6,77 @@
 
 .title {
   font-style: normal;
-  font-weight: normal;
   font-size: 28px;
   margin-left: 0;
-  line-height: 35px;
+  line-height: 20px;
   margin-top: 0;
 }
 
 .description {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 25px;
+  color: #8e99a6;
+
+  .text-link {
+    color: #8e99a6;
+    text-decoration: none;
+    transition: 200ms;
+
+    &:hover {
+      color: #e8edf3;
+    }
+  }
 }
 
 .logo-img {
   display: block;
+}
 
+.input {
+  border: 1px solid #4f5258;
+  background: #2c2f35;
+  color: white;
+  text-transform: uppercase;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+
+  text-shadow: 0 2px 4px #4f5258;
+  line-height: 50px;
+
+  height: 46px;
+  width: 40px;
+  border-radius: 5px;
+
+  margin: 5px;
+  transition: 200ms;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus {
+    border-color: #969AA1;
+  }
+}
+
+.button {
+  background: #3FABFE;
+  height: 50px;
+  width: 250px;
+  border-radius: 25px;
+
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 200ms;
+
+  &:hover {
+    background: white;
+    color: #3C4147;
+  }
 }
