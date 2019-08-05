@@ -1,5 +1,6 @@
 @import "grid/main";
 
+@import "styles/support/normalize";
 @import "styles/support/fonts";
 @import "styles/support/grid";
 @import "styles/support/common";
@@ -7,20 +8,17 @@
 
 @import "styles/components/login";
 @import "styles/components/player";
-@import "styles/components/playlist";
 @import "styles/components/settings";
 @import "styles/components/modal";
 
 html {
   position: relative;
-  min-height: 100vh;
+  overflow: hidden;
   box-sizing: border-box;
-
 }
 
 body {
   font-family: "Muller";
-
   background: url("../images/bg.jpg") center no-repeat;
   background-size: cover;
   color: white;

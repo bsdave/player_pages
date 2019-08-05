@@ -6,7 +6,7 @@
 
 .title {
   font-style: normal;
-  font-size: 28px;
+  font-size: 25px;
   margin-left: 0;
   line-height: 20px;
   margin-top: 0;
@@ -26,10 +26,50 @@
       color: #e8edf3;
     }
   }
+
+  &.white {
+    color: white;
+  }
 }
 
 .logo-img {
   display: block;
+}
+
+.small-logo {
+  position: absolute;
+  top: 42px;
+  left: 50px;
+}
+
+.like-song {
+  position: absolute;
+  top: 42px;
+  right: 50px;
+
+  background: url("../images/like.svg") center no-repeat;
+  height: 27px;
+  width: 30px;
+  border: none;
+
+  transition: 200ms;
+
+  &.liked {
+    background: url("../images/liked.svg") center no-repeat;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+
+  &.justify {
+    justify-content: space-between;
+  }
 }
 
 .input {
@@ -54,15 +94,12 @@
 
   &:focus {
     outline: none;
-  }
-
-  &:focus {
-    border-color: #969AA1;
+    border-color: #969aa1;
   }
 }
 
 .button {
-  background: #3FABFE;
+  background: #3fabfe;
   height: 50px;
   width: 250px;
   border-radius: 25px;
@@ -77,6 +114,6 @@
 
   &:hover {
     background: white;
-    color: #3C4147;
+    color: #3c4147;
   }
 }
