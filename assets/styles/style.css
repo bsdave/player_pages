@@ -838,4 +838,6 @@ input[type="number"] { -moz-appearance: textfield; }
 
 html { position: relative; overflow: hidden; box-sizing: border-box; }
 
-body { font-family: "Muller"; background: url("../images/bg.jpg") center no-repeat; background-size: cover; color: white; font-size: 15px; }
+body { font-family: "Muller"; color: white; font-size: 15px; }
+
+body .bg-image { background-image: url("../images/player-bg.jpg"); -webkit-filter: blur(20px); filter: blur(20px); position: absolute; z-index: -1; top: -50px; bottom: -50px; left: -50px; right: -50px; background-position: center; background-repeat: no-repeat; background-size: cover; }

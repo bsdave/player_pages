@@ -19,8 +19,21 @@ html {
 
 body {
   font-family: "Muller";
-  background: url("../images/bg.jpg") center no-repeat;
-  background-size: cover;
   color: white;
   font-size: 15px;
+
+  .bg-image {
+    background-image: url("../images/player-bg.jpg");
+    filter: blur(20px);
+    position: absolute;
+    z-index: -1;
+    top: -50px;
+    bottom: -50px;
+    left: -50px;
+    right: -50px;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
